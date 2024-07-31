@@ -46,7 +46,7 @@ class DataIngestion:
 
 if __name__ == "__main__":
     obj = DataIngestion()  # Create an instance of the class
-    train_data,test_data=obj.initiate_data_ingestion()  # Call the method on the instance
+    train_data, test_data = obj.initiate_data_ingestion()  # Call the method on the instance
 
-    data_transformation=DataTransformation()
-    data_transformation.initiate_data_transformation(train_data,test_data)
+    data_transformation = DataTransformation()
+    data_transformation.initiate_data_transformation(train_data, test_data)
